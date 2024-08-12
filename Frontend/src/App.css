@@ -1,0 +1,27 @@
+.banner {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #e0e0e0;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.dashboard form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dashboard input[type="text"],
+.dashboard input[type="number"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
